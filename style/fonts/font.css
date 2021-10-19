@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "segoewplight";
+    src: url(./segoe-wp-light.ttf) format("truetype");
+}
+@font-face {
+    font-family: "SegoeWP";
+    src: url(./SegoeWP.ttf) format("truetype");
+}
+@font-face {
+    font-family: "SegoeWPN";
+    src: url(./SegoeWPN.ttf) format("truetype");
+}
+@font-face {
+    font-family: "SourceSansProRegular";
+    src: url(./SourceSansPro-Regular.ttf) format("truetype");
+}
