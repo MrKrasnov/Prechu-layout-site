@@ -1,0 +1,32 @@
+/* logo */
+.header-logo{
+    position: relative;
+    font-family: "segoewplight", sans-serif;
+    color: #000000;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    margin-left: 60px;
+}
+.header-logo::before{
+    position: absolute;
+    display: block;
+    content: '';
+    background-image: url(../../img/logo/logo.png);
+    width: 52px;
+    height: 52px;
+    top: 20px;
+    margin-left: -60px;
+}
+/* nav */
+.header-wrapper a{
+    font-size: 20px;
+}
+.header-wrapper li{
+    margin: 0 20px;
+    padding-bottom: 15px;
+    transition: border 0.5s;
+}
+.header-wrapper li:hover{
+border-bottom: 5px solid #5094f2;
+}
