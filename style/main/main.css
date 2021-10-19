@@ -1,0 +1,53 @@
+main{
+    background-image: url(../../img/main/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff
+}
+.main-img{
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+.main-img img{
+    max-width: 345px;
+    min-height: 436px;
+}
+.main-title{
+    font-family: "segoewplight", sans-serif;
+    margin: auto 0;
+}
+.main-title h2{
+    font-size: 35px;
+}
+.main-title p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.main-title a{
+    margin-left: 15px;
+    font-family: "segoewplight", sans-serif;
+    color: #fff;
+}
+.button{
+    position: relative;
+    background: #5094f2;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 45px;
+}
+.button::before{
+    position: absolute;
+    content: '';
+    background-image: url(../../img/main/checkmark.png);
+    height: 23px;
+    width: 23px;
+    margin-left: -33px;
+}
+.button-hover{
+    transition: background 0.5s;
+}
+.button-hover:hover{
+    background: #d1a21d;
+}

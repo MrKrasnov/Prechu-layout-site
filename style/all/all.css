@@ -16,6 +16,19 @@ a{
     text-decoration: none;
     color: #6f7173;
 }
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,p{
+    padding: 0;
+    margin: 0;
+}
+button{
+    border: none;
+    text-decoration: none;
+    background: none;
+}
 /* flex */
 .flex{
     display: flex;
@@ -25,12 +38,4 @@ a{
 }
 .flex-end{
     align-items: flex-end;
-}
-.container{
-    width: 1024px;
-    margin: 0 auto;
-}
-h1,h2,h3,h4,h5,p{
-    padding: 0;
-    margin: 0;
 }
