@@ -1,0 +1,33 @@
+.ability{
+    /* background */
+    background-image:
+    linear-gradient(to bottom right, transparent 50.5%, #fff 50.5%),
+    linear-gradient(to bottom left, transparent 50.5%, #fff 50.5%); 
+    background-repeat: repeat-x, repeat-x;
+    background-position: 10px 0, 10px 0;  
+    background-size: 20px 20px, 20px 20px;  
+    margin-top: -20px;
+}
+
+.ability-first{
+    margin-left: 65px;
+}
+.ability-third{
+    margin-right: 65px;
+}
+.ability-content{
+    padding-top: 70px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+.ability-content h3{
+    font-family: "SegoeWPN", sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #5c9bf3;
+}
+.ability-content p{
+    font-family: "SegoeWPN", sans-serif;
+    font-size: 15px;
+}
