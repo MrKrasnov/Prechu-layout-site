@@ -1,0 +1,28 @@
+.description{
+    margin-bottom: 70px;
+}
+.description-content{
+    margin-left: 45px;
+}
+.description-text{
+    margin-right: 65px;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.description-content h1{
+    font-family: "SegoeWPN", sans-serif;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.description-text h4{
+    font-family: "SegoeWPN", sans-serif;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+.description-text p{
+    font-family: "segoewplight", sans-serif;
+    line-height: 30px;
+    font-size: 15px;
+    color: #6f7173;
+}
