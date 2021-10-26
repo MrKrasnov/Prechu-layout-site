@@ -31,3 +31,8 @@
 .header-wrapper li:hover{
 border-bottom: 5px solid #5094f2;
 }
+.header-button{
+    cursor: pointer;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
