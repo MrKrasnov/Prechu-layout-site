@@ -35,6 +35,9 @@ button{
 .flex{
     display: flex;
 }
+.flex_column{
+    flex-direction: column;
+}
 .space-between{
     justify-content: space-between;
 }

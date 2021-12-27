@@ -1,0 +1,32 @@
+.nav_mobile{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: fixed;
+    z-index: 100;
+}
+.nav_mobile li{
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid orange;
+}
+.nav_mobile a{
+    font-size: 25px;
+}
+.nav_mobile a:hover{
+    color: orange;
+}
+.cros{
+    text-align: right;
+}
+.cros button{
+    color: #fff;
+    font-size: 20px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.cros button:hover{
+    cursor: pointer;
+    color: orange;
+}
